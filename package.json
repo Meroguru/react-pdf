@@ -8,8 +8,8 @@
     "test"
   ],
   "scripts": {
-    "build": "yarn workspace react-pdf build",
-    "dev": "yarn workspace react-pdf watch & yarn workspace test dev",
+    "build": "yarn workspace @meroguru/react-pdf build",
+    "dev": "yarn workspace @meroguru/react-pdf watch & yarn workspace test dev",
     "format": "yarn workspaces foreach --all run format",
     "lint": "yarn workspaces foreach --all run lint",
     "postinstall": "husky",
